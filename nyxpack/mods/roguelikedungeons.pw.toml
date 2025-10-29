@@ -1,0 +1,13 @@
+name = "Roguelike Dungeons"
+filename = "roguelike-dungeons-fabric-2.1.2+mc1.21.9.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/MFpvbNGE/versions/WlQ92KVH/roguelike-dungeons-fabric-2.1.2%2Bmc1.21.9.jar"
+hash-format = "sha512"
+hash = "c3b3fe3fb0821835cc2707562e3460490872dad399274539e021a9e8609770abd16f7f30f425fc9bdc0712374ca464d64dfb105dd4098bc5e6878de65ec5f434"
+
+[update]
+[update.modrinth]
+mod-id = "MFpvbNGE"
+version = "WlQ92KVH"

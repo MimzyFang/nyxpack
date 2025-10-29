@@ -1,0 +1,13 @@
+name = "Ouch!"
+filename = "ouch-1.6.0+1.21.9-rc1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/nbxqFJCy/versions/GVsqCGGi/ouch-1.6.0%2B1.21.9-rc1.jar"
+hash-format = "sha512"
+hash = "61bbd6f6238205db7040f142e919c613024895333bfb636b5d8a69de6d2891938c0323e24ac7091ee5e6fcac2cbfd8849418098ea9737de36c5e2b1dde6d5f7d"
+
+[update]
+[update.modrinth]
+mod-id = "nbxqFJCy"
+version = "GVsqCGGi"

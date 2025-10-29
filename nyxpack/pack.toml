@@ -1,0 +1,16 @@
+name = "nyxpack"
+author = "Nyx"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "297732a82389d80d961c0405dc7246feff3d6a1de67c77c9760b338d309aa5bc"
+
+[versions]
+fabric = "0.17.3"
+minecraft = "1.21.10"
+
+[options]
+acceptable-game-versions = ["1.21.9"]

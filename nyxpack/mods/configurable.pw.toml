@@ -1,0 +1,13 @@
+name = "Configurable"
+filename = "configurable-3.2.11+1.21.10-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lGffrQ3O/versions/tD94HVpF/configurable-3.2.11%2B1.21.10-fabric.jar"
+hash-format = "sha512"
+hash = "9fedba4fb8291adff242ebe7d70d59c7c94051dc22f9c177d7da7911cdbb048cfd98b1dbefb4cdef170fe0c8ee38648f14d10b72fe02040f1fc4bc6ff7c35490"
+
+[update]
+[update.modrinth]
+mod-id = "lGffrQ3O"
+version = "tD94HVpF"

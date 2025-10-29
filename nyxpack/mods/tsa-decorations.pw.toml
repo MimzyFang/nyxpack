@@ -1,0 +1,13 @@
+name = "Toms Server Additions: Decorations & Furniture"
+filename = "tsa-decorations-2.1.9+1.21.9.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DLsxkJLC/versions/UqquvcY1/tsa-decorations-2.1.9%2B1.21.9.jar"
+hash-format = "sha512"
+hash = "9ef0ab70f4e57272d482a7da33acb7b183328e0c07ae4658692121ff5a4a50702092c22d712fa860ffd34737ea57f4c70cf8624c94ed7745685674c8658b025a"
+
+[update]
+[update.modrinth]
+mod-id = "DLsxkJLC"
+version = "UqquvcY1"

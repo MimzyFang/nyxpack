@@ -1,0 +1,13 @@
+name = "PolyDecorations"
+filename = "polydecorations-0.9.1+1.21.9.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/5710VC7f/versions/3xCGSMKa/polydecorations-0.9.1%2B1.21.9.jar"
+hash-format = "sha512"
+hash = "6e1b6b01d939d6a7a74f3f360ff448ce94a15b635a7b2565a6c56267f820cacedcbcaf4250de7e7b51f8852355442f9c159197277fe5de9bec59ff6840449002"
+
+[update]
+[update.modrinth]
+mod-id = "5710VC7f"
+version = "3xCGSMKa"

@@ -1,0 +1,13 @@
+name = "SleepWarp (Updated)"
+filename = "sleepwarp-2.9.0+1.21.9-rc1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DlSXkZVT/versions/hCfytgpD/sleepwarp-2.9.0%2B1.21.9-rc1.jar"
+hash-format = "sha512"
+hash = "9bdd83f0cf45a1e2fc71827258bad36523ba1edfd0d4e902d0c7c1302d53631695908ae06189072b79b5eb372f0d184baac97d95b6f78b9db9dc1eba57abe3b0"
+
+[update]
+[update.modrinth]
+mod-id = "DlSXkZVT"
+version = "hCfytgpD"

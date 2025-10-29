@@ -1,0 +1,13 @@
+name = "Gone Fishing!"
+filename = "go-fish-1.9.0+1.21.9-rc1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/EAw8Gldo/versions/svuSlVwf/go-fish-1.9.0%2B1.21.9-rc1.jar"
+hash-format = "sha512"
+hash = "a19923621e2317d196d937c062ee1775eb111d3ad2804dc2eb0ef6836f9df0263339c463db42a872a3284532b19acfd2abe14d5751c05f6d0882739222b023a2"
+
+[update]
+[update.modrinth]
+mod-id = "EAw8Gldo"
+version = "svuSlVwf"

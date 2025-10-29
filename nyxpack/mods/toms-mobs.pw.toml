@@ -1,0 +1,13 @@
+name = "Toms Mobs"
+filename = "toms_mobs-2.4.3+1.21.9.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/PXaH6GuW/versions/7QKY2GtM/toms_mobs-2.4.3%2B1.21.9.jar"
+hash-format = "sha512"
+hash = "7b532c5f747d180cf60418ed6aced59afb7e8fe2b7a14119e211bdcc8eca9673dfa72309824b5b2b242c507489b723efc02d277ce40aa22dc80edbacb0663b74"
+
+[update]
+[update.modrinth]
+mod-id = "PXaH6GuW"
+version = "7QKY2GtM"
