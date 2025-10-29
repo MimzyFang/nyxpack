@@ -37,37 +37,37 @@ jobs:
         with:
           files: build/*
 
-      - name: Set publish version-type
-        id: release-type
-        run: |
-          if [ "${{ steps.latest-release.outputs.prerelease }}" = "true" ]; then
-            echo "Setting release-type to beta"
-            echo "release-type=beta" >> $GITHUB_OUTPUT
-          else
-            echo "Setting release-type to release"
-            echo "release-type=release" >> $GITHUB_OUTPUT
-          fi
-        shell: bash
-
-      - name: Pipe latest release description to file
-        run: echo "${{ steps.latest-release.outputs.body }}" > CHANGELOG.release.md
-        shell: bash
-
-      - name: Publish to Modrinth
-        id: modrinth
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          modrinth-id: ${{ secrets.MODRINTH_ID }}
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          loaders: fabric
-          game-versions: ${{ steps.minecraft-version.outputs.minecraft-version }}
-          changelog-file: CHANGELOG.release.md
-          files: "build/*.mrpack"
-          version: ${{ steps.pack-version.outputs.pack-version }}
-          version-type: ${{ steps.release-type.outputs.release-type }}
-
-      - name: Print Modrinth upload status
-        if: steps.modrinth.outcome == 'success'
-        run: |
-          echo "::notice ::☀ Modpack has been uploaded to Modrinth with ${{ secrets.MODRINTH_ID }}"
-        shell: bash
+      # - name: Set publish version-type
+      #   id: release-type
+      #   run: |
+      #     if [ "${{ steps.latest-release.outputs.prerelease }}" = "true" ]; then
+      #       echo "Setting release-type to beta"
+      #       echo "release-type=beta" >> $GITHUB_OUTPUT
+      #     else
+      #       echo "Setting release-type to release"
+      #       echo "release-type=release" >> $GITHUB_OUTPUT
+      #     fi
+      #   shell: bash
+      #
+      # - name: Pipe latest release description to file
+      #   run: echo "${{ steps.latest-release.outputs.body }}" > CHANGELOG.release.md
+      #   shell: bash
+      #
+      # - name: Publish to Modrinth
+      #   id: modrinth
+      #   uses: Kir-Antipov/mc-publish@v3.3
+      #   with:
+      #     modrinth-id: ${{ secrets.MODRINTH_ID }}
+      #     modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+      #     loaders: fabric
+      #     game-versions: ${{ steps.minecraft-version.outputs.minecraft-version }}
+      #     changelog-file: CHANGELOG.release.md
+      #     files: "build/*.mrpack"
+      #     version: ${{ steps.pack-version.outputs.pack-version }}
+      #     version-type: ${{ steps.release-type.outputs.release-type }}
+      #
+      # - name: Print Modrinth upload status
+      #   if: steps.modrinth.outcome == 'success'
+      #   run: |
+      #     echo "::notice ::☀ Modpack has been uploaded to Modrinth with ${{ secrets.MODRINTH_ID }}"
+      #   shell: bash
